@@ -1,0 +1,48 @@
+header {
+  margin: 0 30px;
+}
+header .contentOfHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .contentOfHeader .bigLeftPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+header .contentOfHeader .leftPart .contentOfLeftPart .dot {
+  color: #b4c9a9;
+}
+header .contentOfHeader .leftPart .contentOfLeftPart h3 {
+  opacity: 0.8;
+}
+header .contentOfHeader .middlePart {
+  width: 285px;
+}
+header .contentOfHeader .middlePart .contentOfMiddlePart ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+header .contentOfHeader .middlePart .contentOfMiddlePart ul li {
+  color: #8b8a8f;
+  font-size: 0.7em;
+}
+header .contentOfHeader .rightPart .contentOfRightPart .inputs .loginButton {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 2px 20px;
+  opacity: 0.9;
+}
+header .contentOfHeader .rightPart .contentOfRightPart .inputs .freeTrialButton {
+  border: none;
+  background: #1e1d30;
+  color: #fcfafa;
+  padding: 8px 22px;
+  border-radius: 20px;
+}

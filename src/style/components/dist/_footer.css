@@ -1,0 +1,21 @@
+footer {
+  margin-top: 50px;
+}
+footer .footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footerContainer h2 {
+  font-weight: 500;
+}
+footer .footerContainer .footerNavBar {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 0;
+}
+footer .footerContainer .footerNavBar li {
+  opacity: 0.75;
+  font-size: 0.8em;
+}

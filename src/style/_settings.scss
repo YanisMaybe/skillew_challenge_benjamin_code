@@ -1,0 +1,16 @@
+body{
+    font-family: 'Open Sans';
+}
+.btn{
+    
+    &:hover{
+        cursor: pointer;
+    }
+}
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
